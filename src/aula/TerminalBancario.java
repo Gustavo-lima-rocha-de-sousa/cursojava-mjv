@@ -9,8 +9,8 @@ public class TerminalBancario {
 	}
 
 	private static int somar(int n1, int n2) {
-		int resultado = n1 + n2;
-		return resultado = n1 + n2;
+		int resu = n1 + n2;
+		return resu = n1 + n2;
 	}
 
 }
