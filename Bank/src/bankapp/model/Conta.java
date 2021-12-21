@@ -8,7 +8,8 @@ import java.util.List;
 //padrao java beans
 public class Conta {
 	private double saldo;
-	private String nome ;
+	private String nomeCorrentista;
+	private String numero;
 	
 	private int contaAg;
 	private List<Historico> historicos = new ArrayList();
@@ -17,12 +18,20 @@ public class Conta {
 		return historicos;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getNomeCorrentista() {
+		return nomeCorrentista;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNomeCorrentista(String nomeCorrentista) {
+		this.nomeCorrentista = nomeCorrentista;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
 	}
 
 	public int getContaAg() {
@@ -41,4 +50,10 @@ public class Conta {
 		this.saldo = saldo;
 	}
 
+	@Override
+	public String toString() {
+		return "Conta [nomeCorrentista=" + nomeCorrentista + ", numero=" + numero + "]";
+	}
+
+	
 }
