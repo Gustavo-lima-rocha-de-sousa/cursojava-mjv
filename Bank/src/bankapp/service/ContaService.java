@@ -15,7 +15,7 @@ public class ContaService {
 	}
 
 	public void exibirExtrato(Conta conta) {
-		System.out.println("Exibindo histórico da conta:" + conta.getNome() );
+		System.out.println("Exibindo histórico da conta:" + conta.getNomeCorrentista() );
 		for(Historico hst: conta.getHistoricos()) {
 			System.out.println(hst.getData() 
 					+ ":" + hst.getTipoOperacao()
