@@ -18,8 +18,8 @@ public class ContaService {
 		System.out.println("Exibindo histórico da conta:" + conta.getNome() );
 		for(Historico hst: conta.getHistoricos()) {
 			System.out.println(hst.getData() 
-					+ "-" + hst.getTipoOperacao()
-					+ "-" + hst.getValor() );
+					+ ":" + hst.getTipoOperacao()
+					+ ":" + hst.getValor() );
 			
 					
 		
