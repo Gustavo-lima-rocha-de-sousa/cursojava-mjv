@@ -37,5 +37,6 @@ public class Profissao {
 		
 		public void addFunc(Pessoais F) {
 			ListaFunc.add(F);
+			
 		}		
 }
