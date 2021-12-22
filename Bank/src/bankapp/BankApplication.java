@@ -75,4 +75,34 @@ public class BankApplication {
 		terminal.exibirExtrato(contaClaudia);
 		terminal.exibirExtrato(contaEddward);
 	}
+
+	public static void exemplo3() {
+		Conta contaDaniel = new Conta();
+		Conta contaEddward = new Conta();
+		Conta contaClaudia = new Conta();
+
+		Conta conta = new Conta();
+		
+		contaClaudia.setNomeCorrentista("Claudia");
+		contaEddward.setNomeCorrentista("Eddward");
+		contaDaniel.setNomeCorrentista("Daniel");
+		ContaService terminal = new ContaService();
+									
+		terminal.depositar(contaDaniel, 50.0);
+		terminal.depositar(contaEddward, 50.0);
+		terminal.depositar(contaClaudia, 10.0);
+
+		terminal.sacar(contaDaniel, 20.0);
+		terminal.sacar(contaClaudia, 10.0);
+		terminal.sacar(contaEddward, 15.0);
+		
+		terminal.transferir(contaDaniel, contaClaudia, 5);
+
+		terminal.exibirExtrato(contaDaniel);
+		terminal.exibirExtrato(contaClaudia);
+		terminal.exibirExtrato(contaEddward);
+		
+		terminal.exibirSaldo(contaDaniel);
+		terminal.exibirSaldo(contaClaudia);
+	}
 }
