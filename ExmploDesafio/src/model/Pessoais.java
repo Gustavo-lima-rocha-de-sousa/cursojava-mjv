@@ -4,12 +4,17 @@ import java.util.Date;
 
 public class Pessoais {
 
+
 	private Integer id;
 	private String cpf;
 	private String nome;
 	private String email;
 	private Date aniversario;
 	private String foto;
+	
+		public Date getAniversario( ) {
+		return aniversario;
+	}
 
 	public void setId(Integer id) {
 		this.id = id;
@@ -27,7 +32,7 @@ public class Pessoais {
 		this.email = email;
 	}
 
-	public void setAniversario(Date aniversario) {
+	public void setAniversario(Date aniversario ) {
 		this.aniversario = aniversario;
 	}
 
@@ -49,10 +54,6 @@ public class Pessoais {
 
 	public String getEmail() {
 		return email;
-	}
-
-	public Date getAniversario() {
-		return aniversario;
 	}
 
 	public String getFoto() {

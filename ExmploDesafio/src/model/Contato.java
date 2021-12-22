@@ -6,10 +6,16 @@ public class Contato {
 	private String nome;
 	private String Telefone;
 
-	public Contato(Integer id, String nome, String telefone) {
-		super();
+	
+	public void setId(Integer id) {
 		this.id = id;
+	}
+
+	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public void setTelefone(String telefone) {
 		Telefone = telefone;
 	}
 
