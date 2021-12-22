@@ -24,7 +24,11 @@ public class ContaService {
 	}
 
 	public void exibirSaldo(Conta conta) {
+
 		System.out.println(conta.getNomeCorrentista() + " , seu saldo é " + conta.getSaldo());
+
+		System.out.println(conta.getNomeCorrentista() + " , seu saldo é " + conta.getSaldo());
+
 	}
 
 	public void transferir(Conta contaOrigem, Conta contaDestino, double valorTransferido) {
@@ -37,6 +41,8 @@ public class ContaService {
 		}
 		else {
 			System.out.println("Saldo insuficiente para realizar essa opera��o.");
+
+			System.out.println("Saldo insuficiente para realizar essa operação.");
 		}
 	}
 }

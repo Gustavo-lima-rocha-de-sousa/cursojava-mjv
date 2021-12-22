@@ -83,9 +83,15 @@ public class BankApplication {
 
 		Conta conta = new Conta();
 		
+
 		contaClaudia.setNomeCorrentista("Claudia");
 		contaEddward.setNomeCorrentista("Eddward");
 		contaDaniel.setNomeCorrentista("Daniel");
+
+		contaClaudia.setNomeCorrentista("Claudia");
+		contaEddward.setNomeCorrentista("Eddward");
+		contaDaniel.setNomeCorrentista("Daniel");
+
 		ContaService terminal = new ContaService();
 									
 		terminal.depositar(contaDaniel, 50.0);
