@@ -1,4 +1,4 @@
-package genero;
+package model;
 
 public class Sexo {
 

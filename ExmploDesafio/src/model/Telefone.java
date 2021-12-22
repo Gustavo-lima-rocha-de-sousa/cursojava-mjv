@@ -1,4 +1,4 @@
-package telecomunicacao;
+package model;
 
 public class Telefone {
 

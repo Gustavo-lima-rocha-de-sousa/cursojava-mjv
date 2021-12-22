@@ -1,4 +1,4 @@
-package conhecimento;
+package model;
 
 public class Escolaridades {
 

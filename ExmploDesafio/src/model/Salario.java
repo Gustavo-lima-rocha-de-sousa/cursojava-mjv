@@ -1,4 +1,4 @@
-package faixaSalarial;
+package model;
 
 public class Salario {
 

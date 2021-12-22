@@ -1,7 +1,7 @@
 package cadastro;
 
 import CadastroService.Service;
-import pessoas.Pessoais;
+import model.Pessoais;
 
 public class CadastroApplication {
 

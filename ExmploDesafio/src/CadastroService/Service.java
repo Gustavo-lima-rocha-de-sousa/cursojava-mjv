@@ -2,7 +2,7 @@ package CadastroService;
 
 import java.util.Date;
 
-import pessoas.Pessoais;
+import model.Pessoais;
 
 public class Service {
 

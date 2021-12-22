@@ -1,4 +1,4 @@
-package localidade;
+package model;
 
 public class Endereco {
 

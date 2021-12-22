@@ -1,4 +1,4 @@
-package comunicacao;
+package model;
 
 public class Contato {
 

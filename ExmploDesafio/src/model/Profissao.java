@@ -1,4 +1,4 @@
-package profissional;
+package model;
 
 public class Profissao {
 

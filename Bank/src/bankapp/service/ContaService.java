@@ -20,9 +20,6 @@ public class ContaService {
 			System.out.println(hst.getData() 
 					+ ":" + hst.getTipoOperacao()
 					+ ":" + hst.getValor() );
-			
-					
-		
 	}
  }
 }

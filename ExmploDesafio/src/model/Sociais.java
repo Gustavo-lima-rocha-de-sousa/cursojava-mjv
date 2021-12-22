@@ -1,4 +1,4 @@
-package tipodecontato;
+package model;
 
 public class Sociais {
 
