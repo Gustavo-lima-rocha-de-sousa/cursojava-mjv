@@ -6,12 +6,15 @@ public class Sociais {
 	private int Celular;
 	private int WHATSAPP;
 		
-	public Sociais(int fIXO, int celular, int wHATSAPP) {
-		super();
-		FIXO = fIXO;
-		Celular = celular;
-		WHATSAPP = wHATSAPP;
-	}
+	public void setFIXO(int fIXO) {
+	FIXO = fIXO;
+}
+public void setCelular(int celular) {
+	Celular = celular;
+}
+public void setWHATSAPP(int wHATSAPP) {
+	WHATSAPP = wHATSAPP;
+}
 	public int getFIXO() {
 		return FIXO;
 	}

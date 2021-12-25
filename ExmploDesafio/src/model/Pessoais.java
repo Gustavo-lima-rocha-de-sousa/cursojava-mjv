@@ -5,13 +5,13 @@ import java.util.Date;
 public class Pessoais {
 
 
-	private Integer id;
-	private String cpf;
-	private String nome;
-	private String email;
-	private Date aniversario;
-	private String foto;
-	
+	protected Integer id;
+	protected String cpf;
+	protected String nome;
+	protected String email;
+	protected Date aniversario;
+	protected String foto;
+		
 		public Date getAniversario( ) {
 		return aniversario;
 	}

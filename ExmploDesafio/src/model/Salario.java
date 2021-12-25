@@ -9,6 +9,15 @@ public class Salario {
 		super();
 		this.valorMinimo = valorMinimo;
 		this.valorMaximo = valorMaximo;
+		
+		}
+
+	public void setValorMinimo(Double valorMinimo) {
+		this.valorMinimo = valorMinimo;
+	}
+
+	public void setValorMaximo(Double valorMaximo) {
+		this.valorMaximo = valorMaximo;
 	}
 
 	public Double getValorMinimo() {

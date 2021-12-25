@@ -18,4 +18,12 @@ public class Sexo {
 		return F;
 	}
 
+	public void setM(int m) {
+		M = m;
+	}
+
+	public void setF(int f) {
+		F = f;
+	}
+
 }

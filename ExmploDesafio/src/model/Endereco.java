@@ -7,8 +7,6 @@ public class Endereco {
 	private String bairro;
 	private String cidade;
 
-	
-
 	public void setLogradouro(String logradouro) {
 		this.logradouro = logradouro;
 	}

@@ -9,9 +9,7 @@ import model.Endereco;
 
 public class Service {
 
-	public void cadastrar(Pessoais pessoais, String nome, String cpf, String email, Date aniversario, String foto,
-			Integer id) {
-
+	public void cadastrar(Pessoais pessoais, String nome, String cpf, String email, Date aniversario, String foto,Integer id) {
 		pessoais.setNome(pessoais.getNome() + nome);
 		pessoais.setCpf(pessoais.getCpf() + cpf);
 		pessoais.setEmail(pessoais.getEmail() + email);
@@ -27,8 +25,9 @@ public class Service {
 	}
 
 	public void local(Endereco endereco, String logradouro, String numero, String bairro,String cidade) {
-		
-		
+		endereco.setBairro(endereco.getBairro()+bairro);
+		endereco.setCidade(endereco.getCidade() + cidade);
+		endereco.setLogradouro(endereco.getLogradouro() + logradouro);
+		endereco.setNumero(endereco.getNumero() + numero);
 	}
-	
 }
